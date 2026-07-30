@@ -12,3 +12,4 @@ Approches -
 * 49 - Group Anagrams -> map<str,vec> -> sort and store -> res vector -> pair.second
 * 347 - Top k frequent elements : map -> priority queue (min heap) -> remove elements if size of queue > k -> store it in ans
 * 238 - Product of array except self : using prefix & postfix -> prefix(0-n-1) -> postfix(n-1-0) -> direct in res
+* 36 - Valid sudoku : 9 hashset(row,col,box) -> row/cols(if elt present) : true ? false -> box r/3+3+c/3 : true ? false
